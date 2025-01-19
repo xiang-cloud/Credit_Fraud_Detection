@@ -1,21 +1,21 @@
-# Credit Card Fraud Detection
+# Credit Card Fraud Detection 🛡️
 
 ![Python](https://img.shields.io/badge/python-3.8%2B-blue)
 ![Jupyter](https://img.shields.io/badge/jupyter-notebook-orange)
 ![scikit-learn](https://img.shields.io/badge/scikit--learn-latest-green)
 ![TensorFlow](https://img.shields.io/badge/TensorFlow-latest-orange)
 
-## Project Overview
+## Project Overview 🎯
 
 This project implements a credit card fraud detection system using machine learning techniques. The system analyzes transaction data to identify potentially fraudulent activities, focusing on handling imbalanced data and optimizing for recall and precision in fraud detection.
 
-## Authors
+## Authors 👥
 
 - Xiang Liu
 - Mabel Mires 
 - Natalia Benitez
 
-## Project Structure
+## Project Structure 📁
 
 ```
 .
@@ -29,7 +29,7 @@ Note: The dataset (creditcard.csv) needs to be downloaded from Kaggle:
 https://www.kaggle.com/datasets/mlg-ulb/creditcardfraud
 ```
 
-## Key Features
+## Key Features ⭐
 
 - Data preprocessing using StandardScaler and RobustScaler
 - Principal Component Analysis (PCA) for feature selection
@@ -40,7 +40,7 @@ https://www.kaggle.com/datasets/mlg-ulb/creditcardfraud
 - Cross-validation with StratifiedKFold
 - Hyperparameter optimization using GridSearchCV
 
-## Models Implementation
+## Models Implementation 🤖
 
 The project implements six different machine learning models for fraud detection:
 
@@ -78,7 +78,7 @@ Each model was evaluated using three different approaches:
 - Random Under-Sampling
 - Random Over-Sampling
 
-## Model Evaluation
+## Model Evaluation 📊
 
 Models are evaluated using multiple metrics:
 - Accuracy
@@ -90,7 +90,7 @@ Models are evaluated using multiple metrics:
 
 Special emphasis is placed on recall and precision for fraud detection (class 1), as these are critical metrics for fraud detection systems.
 
-## Installation
+## Installation 💻
 
 1. Clone this repository
 2. Install dependencies:
@@ -108,7 +108,7 @@ Required packages:
 - matplotlib
 - seaborn
 
-## Usage
+## Usage 🚀
 
 1. Open `TrabajoFinal.ipynb` in Jupyter Notebook
 2. Run all cells to:
@@ -116,7 +116,7 @@ Required packages:
    - Train models with different sampling techniques
    - Evaluate and compare model performance
 
-## Results
+## Results 📈
 
 Detailed performance metrics and model comparisons can be found in `Comparar modelos.xlsx`. The evaluation focuses on:
 - Model performance on imbalanced data
@@ -124,7 +124,7 @@ Detailed performance metrics and model comparisons can be found in `Comparar mod
 - Trade-off between precision and recall
 - Overall detection effectiveness
 
-## License
+## License ⚖️
 
 MIT License
 
